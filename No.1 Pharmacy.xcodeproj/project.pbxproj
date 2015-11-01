@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FE7BB841BE5F9C000CBB1AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7BB831BE5F9C000CBB1AF /* main.m */; };
+		6FE7BB871BE5F9C000CBB1AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7BB861BE5F9C000CBB1AF /* AppDelegate.m */; };
+		6FE7BB8A1BE5F9C000CBB1AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7BB891BE5F9C000CBB1AF /* ViewController.m */; };
+		6FE7BB8D1BE5F9C000CBB1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE7BB8B1BE5F9C000CBB1AF /* Main.storyboard */; };
+		6FE7BB8F1BE5F9C000CBB1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE7BB8E1BE5F9C000CBB1AF /* Assets.xcassets */; };
+		6FE7BB921BE5F9C000CBB1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE7BB901BE5F9C000CBB1AF /* LaunchScreen.storyboard */; };
+		6FE7BB9D1BE5F9C000CBB1AF /* No_1_PharmacyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7BB9C1BE5F9C000CBB1AF /* No_1_PharmacyTests.m */; };
+		6FE7BBA81BE5F9C000CBB1AF /* No_1_PharmacyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7BBA71BE5F9C000CBB1AF /* No_1_PharmacyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FE7BB991BE5F9C000CBB1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE7BB771BE5F9C000CBB1AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE7BB7E1BE5F9C000CBB1AF;
+			remoteInfo = "No.1 Pharmacy";
+		};
+		6FE7BBA41BE5F9C000CBB1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE7BB771BE5F9C000CBB1AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE7BB7E1BE5F9C000CBB1AF;
+			remoteInfo = "No.1 Pharmacy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FE7BB7F1BE5F9C000CBB1AF /* No.1 Pharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No.1 Pharmacy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE7BB831BE5F9C000CBB1AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FE7BB851BE5F9C000CBB1AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FE7BB861BE5F9C000CBB1AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FE7BB881BE5F9C000CBB1AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FE7BB891BE5F9C000CBB1AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FE7BB8C1BE5F9C000CBB1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FE7BB8E1BE5F9C000CBB1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FE7BB911BE5F9C000CBB1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FE7BB931BE5F9C000CBB1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE7BB981BE5F9C000CBB1AF /* No.1 PharmacyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "No.1 PharmacyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE7BB9C1BE5F9C000CBB1AF /* No_1_PharmacyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = No_1_PharmacyTests.m; sourceTree = "<group>"; };
+		6FE7BB9E1BE5F9C000CBB1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE7BBA31BE5F9C000CBB1AF /* No.1 PharmacyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "No.1 PharmacyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE7BBA71BE5F9C000CBB1AF /* No_1_PharmacyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = No_1_PharmacyUITests.m; sourceTree = "<group>"; };
+		6FE7BBA91BE5F9C000CBB1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FE7BB7C1BE5F9C000CBB1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE7BB951BE5F9C000CBB1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE7BBA01BE5F9C000CBB1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FE7BB761BE5F9C000CBB1AF = {
+			isa = PBXGroup;
+			children = (
+				6FE7BB811BE5F9C000CBB1AF /* No.1 Pharmacy */,
+				6FE7BB9B1BE5F9C000CBB1AF /* No.1 PharmacyTests */,
+				6FE7BBA61BE5F9C000CBB1AF /* No.1 PharmacyUITests */,
+				6FE7BB801BE5F9C000CBB1AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FE7BB801BE5F9C000CBB1AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7BB7F1BE5F9C000CBB1AF /* No.1 Pharmacy.app */,
+				6FE7BB981BE5F9C000CBB1AF /* No.1 PharmacyTests.xctest */,
+				6FE7BBA31BE5F9C000CBB1AF /* No.1 PharmacyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE7BB811BE5F9C000CBB1AF /* No.1 Pharmacy */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7BB851BE5F9C000CBB1AF /* AppDelegate.h */,
+				6FE7BB861BE5F9C000CBB1AF /* AppDelegate.m */,
+				6FE7BB881BE5F9C000CBB1AF /* ViewController.h */,
+				6FE7BB891BE5F9C000CBB1AF /* ViewController.m */,
+				6FE7BB8B1BE5F9C000CBB1AF /* Main.storyboard */,
+				6FE7BB8E1BE5F9C000CBB1AF /* Assets.xcassets */,
+				6FE7BB901BE5F9C000CBB1AF /* LaunchScreen.storyboard */,
+				6FE7BB931BE5F9C000CBB1AF /* Info.plist */,
+				6FE7BB821BE5F9C000CBB1AF /* Supporting Files */,
+			);
+			path = "No.1 Pharmacy";
+			sourceTree = "<group>";
+		};
+		6FE7BB821BE5F9C000CBB1AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7BB831BE5F9C000CBB1AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FE7BB9B1BE5F9C000CBB1AF /* No.1 PharmacyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7BB9C1BE5F9C000CBB1AF /* No_1_PharmacyTests.m */,
+				6FE7BB9E1BE5F9C000CBB1AF /* Info.plist */,
+			);
+			path = "No.1 PharmacyTests";
+			sourceTree = "<group>";
+		};
+		6FE7BBA61BE5F9C000CBB1AF /* No.1 PharmacyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7BBA71BE5F9C000CBB1AF /* No_1_PharmacyUITests.m */,
+				6FE7BBA91BE5F9C000CBB1AF /* Info.plist */,
+			);
+			path = "No.1 PharmacyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE7BB7E1BE5F9C000CBB1AF /* No.1 Pharmacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE7BBAC1BE5F9C000CBB1AF /* Build configuration list for PBXNativeTarget "No.1 Pharmacy" */;
+			buildPhases = (
+				6FE7BB7B1BE5F9C000CBB1AF /* Sources */,
+				6FE7BB7C1BE5F9C000CBB1AF /* Frameworks */,
+				6FE7BB7D1BE5F9C000CBB1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "No.1 Pharmacy";
+			productName = "No.1 Pharmacy";
+			productReference = 6FE7BB7F1BE5F9C000CBB1AF /* No.1 Pharmacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FE7BB971BE5F9C000CBB1AF /* No.1 PharmacyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE7BBAF1BE5F9C000CBB1AF /* Build configuration list for PBXNativeTarget "No.1 PharmacyTests" */;
+			buildPhases = (
+				6FE7BB941BE5F9C000CBB1AF /* Sources */,
+				6FE7BB951BE5F9C000CBB1AF /* Frameworks */,
+				6FE7BB961BE5F9C000CBB1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE7BB9A1BE5F9C000CBB1AF /* PBXTargetDependency */,
+			);
+			name = "No.1 PharmacyTests";
+			productName = "No.1 PharmacyTests";
+			productReference = 6FE7BB981BE5F9C000CBB1AF /* No.1 PharmacyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FE7BBA21BE5F9C000CBB1AF /* No.1 PharmacyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE7BBB21BE5F9C000CBB1AF /* Build configuration list for PBXNativeTarget "No.1 PharmacyUITests" */;
+			buildPhases = (
+				6FE7BB9F1BE5F9C000CBB1AF /* Sources */,
+				6FE7BBA01BE5F9C000CBB1AF /* Frameworks */,
+				6FE7BBA11BE5F9C000CBB1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE7BBA51BE5F9C000CBB1AF /* PBXTargetDependency */,
+			);
+			name = "No.1 PharmacyUITests";
+			productName = "No.1 PharmacyUITests";
+			productReference = 6FE7BBA31BE5F9C000CBB1AF /* No.1 PharmacyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE7BB771BE5F9C000CBB1AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "梁健聪";
+				TargetAttributes = {
+					6FE7BB7E1BE5F9C000CBB1AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Z73GNQ2MLP;
+					};
+					6FE7BB971BE5F9C000CBB1AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Z73GNQ2MLP;
+						TestTargetID = 6FE7BB7E1BE5F9C000CBB1AF;
+					};
+					6FE7BBA21BE5F9C000CBB1AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Z73GNQ2MLP;
+						TestTargetID = 6FE7BB7E1BE5F9C000CBB1AF;
+					};
+				};
+			};
+			buildConfigurationList = 6FE7BB7A1BE5F9C000CBB1AF /* Build configuration list for PBXProject "No.1 Pharmacy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FE7BB761BE5F9C000CBB1AF;
+			productRefGroup = 6FE7BB801BE5F9C000CBB1AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE7BB7E1BE5F9C000CBB1AF /* No.1 Pharmacy */,
+				6FE7BB971BE5F9C000CBB1AF /* No.1 PharmacyTests */,
+				6FE7BBA21BE5F9C000CBB1AF /* No.1 PharmacyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FE7BB7D1BE5F9C000CBB1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE7BB921BE5F9C000CBB1AF /* LaunchScreen.storyboard in Resources */,
+				6FE7BB8F1BE5F9C000CBB1AF /* Assets.xcassets in Resources */,
+				6FE7BB8D1BE5F9C000CBB1AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE7BB961BE5F9C000CBB1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE7BBA11BE5F9C000CBB1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FE7BB7B1BE5F9C000CBB1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE7BB8A1BE5F9C000CBB1AF /* ViewController.m in Sources */,
+				6FE7BB871BE5F9C000CBB1AF /* AppDelegate.m in Sources */,
+				6FE7BB841BE5F9C000CBB1AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE7BB941BE5F9C000CBB1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE7BB9D1BE5F9C000CBB1AF /* No_1_PharmacyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE7BB9F1BE5F9C000CBB1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE7BBA81BE5F9C000CBB1AF /* No_1_PharmacyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FE7BB9A1BE5F9C000CBB1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE7BB7E1BE5F9C000CBB1AF /* No.1 Pharmacy */;
+			targetProxy = 6FE7BB991BE5F9C000CBB1AF /* PBXContainerItemProxy */;
+		};
+		6FE7BBA51BE5F9C000CBB1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE7BB7E1BE5F9C000CBB1AF /* No.1 Pharmacy */;
+			targetProxy = 6FE7BBA41BE5F9C000CBB1AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FE7BB8B1BE5F9C000CBB1AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE7BB8C1BE5F9C000CBB1AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FE7BB901BE5F9C000CBB1AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE7BB911BE5F9C000CBB1AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FE7BBAA1BE5F9C000CBB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FE7BBAB1BE5F9C000CBB1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE7BBAD1BE5F9C000CBB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "No.1 Pharmacy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aoyolo.www.No-1-Pharmacy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FE7BBAE1BE5F9C000CBB1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "No.1 Pharmacy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aoyolo.www.No-1-Pharmacy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FE7BBB01BE5F9C000CBB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "No.1 PharmacyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aoyolo.www.No-1-PharmacyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/No.1 Pharmacy.app/No.1 Pharmacy";
+			};
+			name = Debug;
+		};
+		6FE7BBB11BE5F9C000CBB1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "No.1 PharmacyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aoyolo.www.No-1-PharmacyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/No.1 Pharmacy.app/No.1 Pharmacy";
+			};
+			name = Release;
+		};
+		6FE7BBB31BE5F9C000CBB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "No.1 PharmacyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aoyolo.www.No-1-PharmacyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "No.1 Pharmacy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6FE7BBB41BE5F9C000CBB1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "No.1 PharmacyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aoyolo.www.No-1-PharmacyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "No.1 Pharmacy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE7BB7A1BE5F9C000CBB1AF /* Build configuration list for PBXProject "No.1 Pharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE7BBAA1BE5F9C000CBB1AF /* Debug */,
+				6FE7BBAB1BE5F9C000CBB1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE7BBAC1BE5F9C000CBB1AF /* Build configuration list for PBXNativeTarget "No.1 Pharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE7BBAD1BE5F9C000CBB1AF /* Debug */,
+				6FE7BBAE1BE5F9C000CBB1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FE7BBAF1BE5F9C000CBB1AF /* Build configuration list for PBXNativeTarget "No.1 PharmacyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE7BBB01BE5F9C000CBB1AF /* Debug */,
+				6FE7BBB11BE5F9C000CBB1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FE7BBB21BE5F9C000CBB1AF /* Build configuration list for PBXNativeTarget "No.1 PharmacyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE7BBB31BE5F9C000CBB1AF /* Debug */,
+				6FE7BBB41BE5F9C000CBB1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FE7BB771BE5F9C000CBB1AF /* Project object */;
+}
